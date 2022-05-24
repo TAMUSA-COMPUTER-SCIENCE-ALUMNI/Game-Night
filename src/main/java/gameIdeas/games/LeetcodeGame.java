@@ -6,7 +6,7 @@ import gameIdeas.enums.AvailableGames;
 import gameIdeas.enums.Duration;
 import gameIdeas.enums.Objectives;
 
-public class LeetcodeGame implements Game
+public class LeetcodeGame implements IGame
 {
 
 

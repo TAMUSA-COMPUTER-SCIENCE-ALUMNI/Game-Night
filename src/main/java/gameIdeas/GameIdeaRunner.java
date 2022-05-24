@@ -1,6 +1,6 @@
 package gameIdeas;
 
-import gameIdeas.games.Game;
+import gameIdeas.games.IGame;
 import gameIdeas.enums.AvailableGames;
 
 import java.util.ArrayList;
@@ -12,9 +12,9 @@ public class GameIdeaRunner
 
     public static void main(String[] args)
     {
-        List<Game> games = getAvailableGames();
+        List<IGame> games = getAvailableGames();
 
-        for (Game n : games)
+        for (IGame n : games)
         {
             n.init();
             n.play();
@@ -22,9 +22,9 @@ public class GameIdeaRunner
 
     }
 
-    private static List<Game> getAvailableGames()
+    private static List<IGame> getAvailableGames()
     {
-        List<Game> games = new ArrayList<>();
+        List<IGame> games = new ArrayList<>();
 
         for (AvailableGames g : AvailableGames.values())
         {
@@ -32,7 +32,7 @@ public class GameIdeaRunner
                 continue;
 
             Optional<Object> o = getGameInstance("gameIdeas.games." + g.valueOf());
-            o.ifPresent(value -> games.add((Game) value));
+            o.ifPresent(value -> games.add((IGame) value));
         }
 
         return games;

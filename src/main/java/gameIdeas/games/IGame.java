@@ -5,7 +5,7 @@ import gameIdeas.enums.Objectives;
 
 import java.util.List;
 
-public interface Game
+public interface IGame
 {
         void init();
         void play();

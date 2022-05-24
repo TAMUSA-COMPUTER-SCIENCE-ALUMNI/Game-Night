@@ -5,7 +5,7 @@ import gameIdeas.enums.AvailableGames;
 import gameIdeas.enums.Duration;
 import gameIdeas.enums.Objectives;
 
-public class BritneyVsFergieGame implements Game {
+public class BritneyVsFergieGame implements IGame {
 
     GameRequirements gameRequirements;
 
