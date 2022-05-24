@@ -7,6 +7,7 @@ public enum Objectives
     API ("API"),
     TESTING ("Testing"),
     STREAMS ("Streams"),
+    GIT("Git"),
     UNKNOWN("");
 
     private final String label;
