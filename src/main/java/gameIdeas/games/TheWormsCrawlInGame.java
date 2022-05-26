@@ -5,7 +5,7 @@ import gameIdeas.enums.AvailableGames;
 import gameIdeas.enums.Duration;
 import gameIdeas.enums.Objectives;
 
-public class WormGame implements IGame {
+public class TheWormsCrawlInGame implements IGame {
 
     GameRequirements gameRequirements;
 

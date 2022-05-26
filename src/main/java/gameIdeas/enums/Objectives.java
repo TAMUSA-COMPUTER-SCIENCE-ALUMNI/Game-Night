@@ -8,6 +8,7 @@ public enum Objectives
     TESTING ("Testing"),
     STREAMS ("Streams"),
     GIT("Git"),
+    LINKED_LISTS("Linked Lists"),
     UNKNOWN("");
 
     private final String label;
