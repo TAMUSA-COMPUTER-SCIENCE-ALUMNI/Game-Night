@@ -14,7 +14,7 @@ public class TheWormsCrawlInGame implements IGame {
     {
         gameRequirements = new GameRequirements();
 
-        gameRequirements.setGameName(AvailableGames.WORM_GAME.gameName());
+        gameRequirements.setGameName(AvailableGames.THE_WORMS_CRAWL_IN.gameName());
         gameRequirements.setPrimaryObjective(Objectives.DATA_STRUCTURES);
         gameRequirements.setExpectedDuration(Duration.FORTY_FIVE_MINUTES);
     }

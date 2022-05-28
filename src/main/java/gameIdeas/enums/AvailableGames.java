@@ -4,9 +4,11 @@ public enum AvailableGames
 {
     BRITNEY_VS_FERGIE_GAME("BritneyVsFergieGame"),
     LEETCODE_GAME("LeetcodeGame"),
-    WORM_GAME("TheWormsCrawlInGame"),
-    FUNNIEST_JOKE("FunniestJokeGame"),
+    THE_WORMS_CRAWL_IN("TheWormsCrawlInGame"),
+    FUNNIEST_JOKE_GAME("FunniestJokeGame"),
     BACKSTREETS_BACK_GAME("BackStreetsBackGame"),
+    MURDER_IN_CHATEAU_JVM_PART_ONE("MurderInChateauJVMPartOneGame"),
+    MURDER_IN_CHATEAU_JVM_PART_TWO("MurderInChateauJVMPartTwoGame"),
     UNKNOWN("");
 
     private final String label;

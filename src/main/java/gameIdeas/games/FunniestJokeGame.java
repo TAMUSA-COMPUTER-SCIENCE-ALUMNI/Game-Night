@@ -15,7 +15,7 @@ public class FunniestJokeGame implements IGame
     {
         gameRequirements = new GameRequirements();
 
-        gameRequirements.setGameName(AvailableGames.FUNNIEST_JOKE.gameName());
+        gameRequirements.setGameName(AvailableGames.FUNNIEST_JOKE_GAME.gameName());
         gameRequirements.setPrimaryObjective(Objectives.GIT);
         gameRequirements.setExpectedDuration(Duration.SIXTY_MINUTES);
     }

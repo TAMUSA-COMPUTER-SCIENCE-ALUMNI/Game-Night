@@ -9,7 +9,6 @@ import java.util.Optional;
 
 public class GameIdeaRunner
 {
-
     public static void main(String[] args)
     {
         List<IGame> games = getAvailableGames();
